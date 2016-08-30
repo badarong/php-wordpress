@@ -3,6 +3,7 @@
  * Sanitize a single string or array of string 
  *
  * sample usage:
+ * $inp = fss( $_POST['inp'] );
  * $_POST = fss( $_POST );
  *
  * @param str|array $str
