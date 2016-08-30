@@ -10,7 +10,6 @@
  * @return str|array (it depends on the input)
 */
 function fss( $str ){
-
     if ( is_array( $str ) ) {
         $ret_arr = array();
 
