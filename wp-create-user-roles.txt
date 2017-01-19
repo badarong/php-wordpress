@@ -1,0 +1,13 @@
+/** 
+ * Add a custom user role to the site
+ * https://codex.wordpress.org/Roles_and_Capabilities
+*/
+$result1 = add_role('customer', 'Customer', array(
+	'read' => true,
+));
+
+$result2 = add_role('seller', 'Seller', array(
+	'read' => true,
+	'edit_posts' => true,
+	'delete_posts' => true,
+));
